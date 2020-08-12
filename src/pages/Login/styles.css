@@ -1,0 +1,35 @@
+.login-field{
+    border: none;
+    background: rgba(0,0,0,.25);
+    color: #fdfdfd;
+    margin: .5rem 0 ;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 8px;
+    transition: all .1s linear;
+}
+
+.login-field:focus{
+    outline: none;
+    box-shadow: 0 4px 4px rgba(0,0,0,.5);
+    
+}
+
+.login-error{
+    color: #ff8080;
+}
+
+.login-button{
+    background: #00cc66;
+    color: #fdfdfd;
+    padding: .5rem 2rem;
+    border-radius: 5px;
+    border: none;
+    margin-top: 2rem;
+    transition: all .2s;
+}
+
+.login-button:hover{
+    cursor: pointer;
+    background-color: #00cc11;
+}
